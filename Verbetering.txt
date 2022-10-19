@@ -1,0 +1,5 @@
+Ik vind het met de weinige code vrij onduidelijk om aan te geven waar dit op verbeterd moet worden. Het is onduidelijk waar de data weg komt, en waar het eventueel naar toe gaat.
+
+Als de data op dit moment rechtstreeks van de gebruiker naar een opslag (e.g. een database) gaat, zou het sowieso al beveiligd moeten worden op verschillende aanvallen als sql injection, xss, etc. door middel van sanitization.
+
+Ook zouden er checks moeten zijn om te kijken of bijvoorbeeld de partij en de persoon waarop gestemd word wel bestaat in de bestaande data.
